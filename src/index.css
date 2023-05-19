@@ -1,15 +1,24 @@
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;  
-  min-width: 320px;
-  min-height: 100vh;
-  background: black;
-}
-
-h1 {
-  font-size: 10em;
-  color: rgb(0, 255, 238);
-}
-
+  body{
+    align-items: center;
+    background: black;
+  }
+  h2{
+    font-size: 36px;
+    color: #ffffff;
+  }
+  p{
+    font-size: 35px;
+    color: #ffffff;   
+    
+  }
+  .btn{
+  border: none;
+  border-radius: 50px;
+  margin-right: 20px;
+  padding: 30px;
+  background-color: blue;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 25px;
+  }
